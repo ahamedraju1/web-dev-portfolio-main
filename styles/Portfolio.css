@@ -21,6 +21,12 @@
     font-weight: bold;
     padding: 20px 35px;
 }
+
+header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
 /* shared styles */
 nav {
     display: flex;
@@ -44,4 +50,31 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+   max-width: 580px;
+}
+.banner-greetings{
+    
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.banner-profile-pic{
+    width: 580px;
 }
