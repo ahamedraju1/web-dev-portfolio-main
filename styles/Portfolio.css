@@ -1,43 +1,50 @@
-.open-sans-normal{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 /* shared styles */
 
-.text-primary{
-    color:#FD6E0A;   
+.text-primary {
+    color: #FD6E0A;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     color: white;
     border: none;
-    font-size:20px;
+    font-size: 20px;
     /* font-weight: 700px; */
     font-weight: bold;
     padding: 20px 35px;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
     color: #757575;
 }
+
 /* header styles */
-header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: top left, bottom right;
 }
+
 /* nav styles */
 nav {
     display: flex;
@@ -45,74 +52,127 @@ nav {
     margin: 0px 200px;
     justify-content: space-between;
 }
-.nav-tile{
+
+.nav-tile {
     font-size: 45px;
     font-weight: 800;
 }
-nav ul{
+
+nav ul {
     display: flex;
     text-align: center;
-    
+
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    margin-right:50px;
+    margin-right: 50px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     font-size: 20px;
 }
 
 /* Banner styles */
-.banner{
+.banner {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 0 35px 0 200px;
 }
-.banner-content{
-   max-width: 580px;
+
+.banner-content {
+    max-width: 580px;
 }
-.banner-greetings{
-    
+
+.banner-greetings {
+
     font-size: 45px;
     font-weight: 600;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 85px;
 }
-.banner-description{
+
+.banner-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 }
-.banner-profile-pic{
+
+.banner-profile-pic {
     width: 580px;
 }
 
 /* main styles */
-main{
- max-width: 1140px;
- margin: 0 auto;
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-main section{
+
+main section {
     margin-bottom: 130px;
     margin-top: 130px;
 }
+
 /* about styles */
-.about{
-  border-radius: 10px;
-  padding: 130px 150px;
-  text-align: center;
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
 }
-.item-description{
+
+.item-description {
     font-weight: 600px;
 }
-.secondary-bg{
+
+.secondary-bg {
     border-radius: 10px;
     background: #FFF8F3;
+    margin-top: 230px;
+}
+
+/* section styles */
+.section-title2 {
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-top: 230px;
+}
+
+.section-description2 {
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 34px;
+    margin-top: 90px;
+}
+
+.skills {
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 5px 50px 0px rgb(0, 0, 0, 0.06);
+    padding: 10px;
+
+}
+.skill-title{
+    font-size: 20px;
+    color: #181818;
+}
+.skill-description{
+    font-size: 16px;
+    color: #757575;
 }
