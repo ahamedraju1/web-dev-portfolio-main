@@ -176,3 +176,17 @@ main section {
     font-size: 16px;
     color: #757575;
 }
+
+/* resume styles */
+.section-title3{
+     text-align: center;
+     font-size: 35px;
+     color: #181818;
+     margin-top: 230px;
+}
+.resume-colum{
+   
+}
+.resume-item{
+   display: flex;
+}
